@@ -1,3 +1,8 @@
+# SIMPLE TODO LSIT
+
+![preview](https://github.com/PushpJain009/Simple_ToDo_List_ReactJS/assets/114671782/5b0c494f-e0b7-488a-b2fe-3c5bda6d74bd)  ![preview](https://github.com/PushpJain009/Simple_ToDo_List_ReactJS/assets/114671782/1409968a-24c1-419f-bd89-0ee949a945c3)  ![preview](https://github.com/PushpJain009/Simple_ToDo_List_ReactJS/assets/114671782/c8294b93-8192-4b98-a960-f0579dc85de0)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
