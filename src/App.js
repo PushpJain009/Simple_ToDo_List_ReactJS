@@ -4,7 +4,6 @@ import OrderList from "./OrderList";
 const App = () => {
   const [inputList, setInputList] = useState("");
   const [items, setItems] = useState([]);
-  const [showTask, setShowTask] = useState(false);
 
   const itemEvent = (event) => {
     setInputList(event.target.value);
@@ -15,7 +14,6 @@ const App = () => {
       return [...oldItems, inputList];
     });
     setInputList("");
-    setShowTask(true);
   };
 
   const deleteItems = (id) => {
@@ -41,7 +39,7 @@ const App = () => {
           />
           <button onClick={addItem}>+</button>
           <br />
-          {showTask ? (
+          {items.length > 0 ? (
             <div>
               <div className="task_heading">
                 <h3>Tasks To Do</h3>
